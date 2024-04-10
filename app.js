@@ -3,8 +3,8 @@ const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 const Blog = require("./models/blog");
-const username = process.env.MONGODB_USERNAME;
-const password = process.env.MONGODB_PASSWORD;
+const username = "mahantiharsh";
+const password = "GYlrPYKFqVHxetJa";
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.h2pyg1f.mongodb.net/BLogwebsite`).then(() => {
     console.log('database connected');
 }).catch((err) => {
