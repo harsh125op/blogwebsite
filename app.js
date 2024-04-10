@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const Blog = require("./models/blog");
 const username = "mahantiharsh";
 const password = "GYlrPYKFqVHxetJa";
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.h2pyg1f.mongodb.net/BLogwebsite`).then(() => {
+mongoose.connect(`mongodb+srv://mahantiharsh:GYlrPYKFqVHxetJa@cluster0.h2pyg1f.mongodb.net/BLogwebsite`).then(() => {
     console.log('database connected');
 }).catch((err) => {
     console.log(err.message);
